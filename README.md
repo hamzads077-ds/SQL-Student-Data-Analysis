@@ -14,8 +14,6 @@ SELECT name, course, marks
 FROM students 
 WHERE marks >= 75;
 
-*### 2. Average Marks Per Course*
-```sql
 SELECT course, AVG(marks) AS avg_marks 
 FROM students 
 GROUP BY course;
