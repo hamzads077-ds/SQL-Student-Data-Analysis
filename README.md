@@ -2,7 +2,8 @@
 
 This repository contains basic SQL scripts created for practicing database design, data insertion, filtering, and aggregation in MySQL.
 
-## 🛠️ Tools Used
+## 🛠️️ Tools Used
+
 - **Database Management System:** MySQL
 - **Interface/GUI:** MySQL Workbench
 
@@ -11,13 +12,11 @@ This repository contains basic SQL scripts created for practicing database desig
 ### 1. High Performing Students (Marks >= 75)
 
 ```sql
-SELECT name, course, marks 
-FROM students 
+SELECT name, course, marks
+FROM students
 WHERE marks >= 75;
-
-### 2. Average calculate
-
-```sql
-SELECT course, AVG(marks) AS avg_marks 
-FROM students 
+2. Average Marks Calculate
+SQL
+SELECT course, AVG(marks) AS avg_marks
+FROM students
 GROUP BY course;
