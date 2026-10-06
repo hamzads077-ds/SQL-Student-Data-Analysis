@@ -5,7 +5,7 @@ This repository contains basic SQL scripts created for practicing database desig
 ## 🛠️ Tools Used
 
 - **Database Management System:** MySQL
-- **Interface/GUI:** MySQL Workbench
+- **GUI:** MySQL Workbench
 
 ## 📌 Queries & Visual Results
 
