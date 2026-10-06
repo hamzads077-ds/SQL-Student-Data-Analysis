@@ -1,19 +1,23 @@
-📊 Basic Student Data Analysis (MySQL)
+# 📊 Basic Student Data Analysis (MySQL)
+
 This repository contains basic SQL scripts created for practicing database design, data insertion, filtering, and aggregation in MySQL.
 
-🛠️ Tools Used
-Database Management System: MySQL
+## 🛠️ Tools Used
+- **Database Management System:** MySQL
+- **Interface/GUI:** MySQL Workbench
 
-Interface/GUI: MySQL Workbench
+## 📌 Queries & Visual Results
 
-📌 Queries & Visual Results
-1. High Performing Students (Marks >= 75)
-SQL
+### 1. High Performing Students (Marks >= 75)
+
+```sql
 SELECT name, course, marks 
 FROM students 
 WHERE marks >= 75;
-2. Average Marks Per Course
-SQL
+
+### 2. Average calculate
+
+```sql
 SELECT course, AVG(marks) AS avg_marks 
 FROM students 
 GROUP BY course;
