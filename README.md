@@ -6,7 +6,7 @@ This repository contains basic SQL scripts created for practicing database desig
 
 - **Database Management System:** MySQL
 - **GUI:** MySQL Workbench
-
+  
 ## 📌 Queries & Visual Results
 
 ### 1. High Performing Students (Marks >= 75)
