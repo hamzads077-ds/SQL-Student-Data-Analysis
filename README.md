@@ -1,6 +1,6 @@
 # 📊 Basic Student Data Analysis (MySQL)
 
-This repository contains basic SQL scripts created for practicing database design, data insertion, filtering, and aggregation in MySQL.       
+This repository contains basic SQL scripts created for practicing database design, data insertion, filtering, and aggregation in MySQL.         
 
 ## 🛠️ Tools Used
 
