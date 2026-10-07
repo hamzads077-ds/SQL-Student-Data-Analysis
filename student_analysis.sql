@@ -6,7 +6,7 @@ use student_db;
 Create Table students (
     Id INT PRIMARY KEY AUTO_INCREMENT,
     name varchar(50) NOT NULL,
-    course varchar(50),
+    course varchar(50), 
     marks int,
     city varchar(50)
 );
