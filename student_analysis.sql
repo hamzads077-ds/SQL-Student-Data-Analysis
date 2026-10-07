@@ -1,5 +1,5 @@
 # Create database       
-create database student_db;   
+create database student_db;    
 use student_db;  
 
 # Create table
