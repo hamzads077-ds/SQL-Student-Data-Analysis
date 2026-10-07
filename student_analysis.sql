@@ -1,4 +1,4 @@
-# Create database      
+# Create database        
 create database student_db;   
 use student_db;
 
