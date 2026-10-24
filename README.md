@@ -11,7 +11,7 @@ This repository contains basic SQL scripts created for practicing database desig
 
 ### 1. High Performing Students (Marks >= 75)
 
-```sql
+```SQL
 SELECT name, course, marks
 FROM students
 WHERE marks >= 75;
@@ -19,7 +19,7 @@ WHERE marks >= 75;
 
 ### 2. Average Marks Calculate
 
-```sql
+```SQL  
 SELECT course, AVG(marks) AS avg_marks
 FROM students
 GROUP BY course;
